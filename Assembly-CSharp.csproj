@@ -52,6 +52,7 @@
      <Compile Include="Assets\Code\GameManager.cs" />
      <Compile Include="Assets\Code\Menu.cs" />
      <Compile Include="Assets\Code\UnityAds.cs" />
+     <Compile Include="Assets\Code\UnityAds1.cs" />
      <None Include="Assets\Movinarc\PackageUninstaller\README.txt" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
