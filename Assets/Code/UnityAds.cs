@@ -11,7 +11,8 @@ public class UnityAds : MonoBehaviour
     {
         if (string.IsNullOrEmpty(zoneId)) zoneId = null;
 
-        Rect buttonRect = new Rect(10, 10, 300, 150);
+        Rect buttonRect = new Rect(10, 10, 300, 150); //modified the size of the rect so that it is easier to see and interact with
+
         string buttonText = Advertisement.IsReady(zoneId) ? "Show Ad" : "Waiting...";
 
         ShowOptions options = new ShowOptions();
